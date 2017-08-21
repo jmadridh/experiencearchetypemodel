@@ -1,0 +1,29 @@
+  - searchable:
+      queryParameters:
+        query:
+          description: JSON parameter to search certain nodes
+          type: string
+          required: false
+  - orderable:
+      queryParameters:
+        orderBy:
+          description: Order by field
+          type: string
+          required: false
+        order:
+          description: Order
+          enum: [desc, asc]
+          default: desc
+          required: false
+  - pageable:
+      queryParameters:
+        offset:
+          description: Number of elements by value for the query
+          type: integer
+          required: false
+          default: 0
+        limit:
+          description: Limit number of elements on the response
+          type: string
+          required: false
+          default: 10

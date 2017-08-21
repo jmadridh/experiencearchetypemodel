@@ -1,0 +1,456 @@
+ collection:
+    usage: This resourceType should be used.
+    description: Resource to use with <<resourcePathName>>
+    get:
+      responses:
+        200:
+          description: Only for successful operations.
+          body:
+            application/json:
+              example: !include ../responses/200.response
+        201:
+          body:
+            application/json:
+              example: !include ../responses/201.response
+        202:
+          body:
+            application/json:
+              example: !include ../responses/202.response
+        204:
+          body:
+            application/json:
+              example: !include ../responses/204.response
+        304:
+          body:
+            application/json:
+              example: !include ../responses/304.response
+        400:
+          description: For no successful operations.
+          body:
+            application/json:
+              example: !include ../responses/400.response
+        401:
+          body:
+            application/json:
+              example: !include ../responses/401.response
+        403:
+          body:
+            application/json:
+              example: !include ../responses/403.response
+        404:
+          body:
+            application/json:
+              example: !include ../responses/404.response
+        405:
+          body:
+            application/json:
+              example: !include ../responses/405.response
+        406:
+          body:
+            application/json:
+              example: !include ../responses/406.response
+        408:
+          body:
+            application/json:
+              example: !include ../responses/408.response
+        409:
+          body:
+            application/json:
+              example: !include ../responses/409.response
+        410:
+          body:
+            application/json:
+              example: !include ../responses/410.response
+        412:
+          body:
+            application/json:
+              example: !include ../responses/412.response
+        415:
+          body:
+            application/json:
+              example: !include ../responses/415.response
+        429:
+          body:
+            application/json:
+              example: !include ../responses/429.response
+        500:
+          body:
+            application/json:
+              example: !include ../responses/500.response
+        502:
+          body:
+            application/json:
+              example: !include ../responses/502.response
+        503:
+          body:
+            application/json:
+              example: !include ../responses/503.response
+        504:
+          body:
+            application/json:
+              example: !include ../responses/504.response
+        509:
+          body:
+            application/json:
+              example: !include ../responses/509.response
+        510:
+          body:
+            application/json:
+              example: !include ../responses/510.response
+        511:
+          body:
+            application/json:
+              example: !include ../responses/511.response
+        550:
+          body:
+            application/json:
+              example: !include ../responses/550.response
+        598:
+          body:
+            application/json:
+              example: !include ../responses/598.response
+        599:
+          body:
+            application/json:
+              example: !include ../responses/599.response
+    post:
+      description: HTTP Method that push data to this API.
+      body:
+        application/json:
+          example: !include ../requests/bodyResource.example
+          schema: Sample
+      responses:
+        200:
+          body:
+            application/json:
+              example: !include ../responses/200.response
+        201:
+          body:
+            application/json:
+              example: !include ../responses/201.response
+        202:
+          body:
+            application/json:
+              example: !include ../responses/202.response
+        204:
+          body:
+            application/json:
+              example: !include ../responses/204.response
+        304:
+          body:
+            application/json:
+              example: !include ../responses/304.response
+        400:
+          body:
+            application/json:
+              example: !include ../responses/400.response
+        401:
+          body:
+            application/json:
+              example: !include ../responses/401.response
+        403:
+          body:
+            application/json:
+              example: !include ../responses/403.response
+        404:
+          body:
+            application/json:
+              example: !include ../responses/404.response
+        405:
+          body:
+            application/json:
+              example: !include ../responses/405.response
+        406:
+          body:
+            application/json:
+              example: !include ../responses/406.response
+        408:
+          body:
+            application/json:
+              example: !include ../responses/408.response
+        409:
+          body:
+            application/json:
+              example: !include ../responses/409.response
+        410:
+          body:
+            application/json:
+              example: !include ../responses/410.response
+        412:
+          body:
+            application/json:
+              example: !include ../responses/412.response
+        415:
+          body:
+            application/json:
+              example: !include ../responses/415.response
+        429:
+          body:
+            application/json:
+              example: !include ../responses/429.response
+        500:
+          body:
+            application/json:
+              example: !include ../responses/500.response
+        502:
+          body:
+            application/json:
+              example: !include ../responses/502.response
+        503:
+          body:
+            application/json:
+              example: !include ../responses/503.response
+        504:
+          body:
+            application/json:
+              example: !include ../responses/504.response
+        509:
+          body:
+            application/json:
+              example: !include ../responses/509.response
+        510:
+          body:
+            application/json:
+              example: !include ../responses/510.response
+        511:
+          body:
+            application/json:
+              example: !include ../responses/511.response
+        550:
+          body:
+            application/json:
+              example: !include ../responses/550.response
+        598:
+          body:
+            application/json:
+              example: !include ../responses/598.response
+        599:
+          body:
+            application/json:
+              example: !include ../responses/599.response
+    put:
+      description: HTTP Method that push data to this API.
+      body:
+        application/json:
+          example: !include ../requests/bodyResource.example
+          schema: Sample
+      responses:
+        200:
+          body:
+            application/json:
+              example: !include ../responses/200.response
+        201:
+          body:
+            application/json:
+              example: !include ../responses/201.response
+        202:
+          body:
+            application/json:
+              example: !include ../responses/202.response
+        204:
+          body:
+            application/json:
+              example: !include ../responses/204.response
+        304:
+          body:
+            application/json:
+              example: !include ../responses/304.response
+        400:
+          body:
+            application/json:
+              example: !include ../responses/400.response
+        401:
+          body:
+            application/json:
+              example: !include ../responses/401.response
+        403:
+          body:
+            application/json:
+              example: !include ../responses/403.response
+        404:
+          body:
+            application/json:
+              example: !include ../responses/404.response
+        405:
+          body:
+            application/json:
+              example: !include ../responses/405.response
+        406:
+          body:
+            application/json:
+              example: !include ../responses/406.response
+        408:
+          body:
+            application/json:
+              example: !include ../responses/408.response
+        409:
+          body:
+            application/json:
+              example: !include ../responses/409.response
+        410:
+          body:
+            application/json:
+              example: !include ../responses/410.response
+        412:
+          body:
+            application/json:
+              example: !include ../responses/412.response
+        415:
+          body:
+            application/json:
+              example: !include ../responses/415.response
+        429:
+          body:
+            application/json:
+              example: !include ../responses/429.response
+        500:
+          body:
+            application/json:
+              example: !include ../responses/500.response
+        502:
+          body:
+            application/json:
+              example: !include ../responses/502.response
+        503:
+          body:
+            application/json:
+              example: !include ../responses/503.response
+        504:
+          body:
+            application/json:
+              example: !include ../responses/504.response
+        509:
+          body:
+            application/json:
+              example: !include ../responses/509.response
+        510:
+          body:
+            application/json:
+              example: !include ../responses/510.response
+        511:
+          body:
+            application/json:
+              example: !include ../responses/511.response
+        550:
+          body:
+            application/json:
+              example: !include ../responses/550.response
+        598:
+          body:
+            application/json:
+              example: !include ../responses/598.response
+        599:
+          body:
+            application/json:
+              example: !include ../responses/599.response
+    delete:
+      description: HTTP Method that push data to this API.
+      responses:
+        200:
+          body:
+            application/json:
+              example: !include ../responses/200.response
+        201:
+          body:
+            application/json:
+              example: !include ../responses/201.response
+        202:
+          body:
+            application/json:
+              example: !include ../responses/202.response
+        204:
+          body:
+            application/json:
+              example: !include ../responses/204.response
+        304:
+          body:
+            application/json:
+              example: !include ../responses/304.response
+        400:
+          body:
+            application/json:
+              example: !include ../responses/400.response
+        401:
+          body:
+            application/json:
+              example: !include ../responses/401.response
+        403:
+          body:
+            application/json:
+              example: !include ../responses/403.response
+        404:
+          body:
+            application/json:
+              example: !include ../responses/404.response
+        405:
+          body:
+            application/json:
+              example: !include ../responses/405.response
+        406:
+          body:
+            application/json:
+              example: !include ../responses/406.response
+        408:
+          body:
+            application/json:
+              example: !include ../responses/408.response
+        409:
+          body:
+            application/json:
+              example: !include ../responses/409.response
+        410:
+          body:
+            application/json:
+              example: !include ../responses/410.response
+        412:
+          body:
+            application/json:
+              example: !include ../responses/412.response
+        415:
+          body:
+            application/json:
+              example: !include ../responses/415.response
+        429:
+          body:
+            application/json:
+              example: !include ../responses/429.response
+        500:
+          body:
+            application/json:
+              example: !include ../responses/500.response
+        502:
+          body:
+            application/json:
+              example: !include ../responses/502.response
+        503:
+          body:
+            application/json:
+              example: !include ../responses/503.response
+        504:
+          body:
+            application/json:
+              example: !include ../responses/504.response
+        509:
+          body:
+            application/json:
+              example: !include ../responses/509.response
+        510:
+          body:
+            application/json:
+              example: !include ../responses/510.response
+        511:
+          body:
+            application/json:
+              example: !include ../responses/511.response
+        550:
+          body:
+            application/json:
+              example: !include ../responses/550.response
+        598:
+          body:
+            application/json:
+              example: !include ../responses/598.response
+        599:
+          body:
+            application/json:
+              example: !include ../responses/599.response

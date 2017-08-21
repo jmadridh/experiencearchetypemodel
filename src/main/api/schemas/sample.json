@@ -1,0 +1,43 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {
+		"brand": {
+            "type": "string"
+        },
+        "color": {
+            "type": "string"
+        },
+        "id": {
+            "type": "integer",
+			"minimum": 1
+        },
+        "price": {
+            "type": "number",
+			"minimum": 0
+        },
+        "tags": {
+            "items": {
+                "type": "string"
+            },
+            "type": "array"
+        }
+	},
+    "properties": {
+        "brand": {
+            "ref": "#/definitions/brand"
+        },
+        "color": {
+            "$ref": "#/definitions/color"
+        },
+        "id": {
+            "$ref": "#/definitions/id"
+        },
+        "price": {
+            "$ref": "#/definitions/price"
+        },
+        "tags": {
+            "$ref": "#/definitions/tags"
+        }
+    },
+    "type": "object"
+}

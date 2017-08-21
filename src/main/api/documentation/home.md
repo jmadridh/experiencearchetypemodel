@@ -1,0 +1,1 @@
+This experience API provides the entry points to acquire data from the source system that will be used as an input for Salesforce in the Cloud.
